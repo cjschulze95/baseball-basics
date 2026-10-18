@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="440" viewBox="0 0 600 440">
+  <title>Baseball diamond</title>
+  <desc>A labeled diagram showing the four bases and the pitcher's mound.</desc>
+  <rect width="600" height="440" fill="#f0f7ee"/>
+  <path d="M300 355 L465 205 L300 55 L135 205 Z" fill="#d5b58a" stroke="#355b32" stroke-width="3"/>
+  <path d="M300 325 L430 205 L300 85 L170 205 Z" fill="#7eaa69"/>
+  <circle cx="300" cy="205" r="25" fill="#d5b58a"/>
+  <rect x="286" y="201" width="28" height="8" fill="white"/>
+  <g fill="white" stroke="#333" stroke-width="2">
+    <rect x="455" y="195" width="20" height="20"/>
+    <rect x="290" y="45" width="20" height="20"/>
+    <rect x="125" y="195" width="20" height="20"/>
+    <path d="M290 344 H310 V357 L300 365 L290 357 Z"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="20" fill="#1f2937" text-anchor="middle">
+    <text x="300" y="30">Second base</text>
+    <text x="520" y="245">First base</text>
+    <text x="80" y="245">Third base</text>
+    <text x="300" y="400">Home plate</text>
+    <text x="300" y="260">Pitcher's mound</text>
+  </g>
+</svg>
