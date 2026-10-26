@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  background-color: #f4f4f4;
+  color: #222;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-bottom: 4px solid orange;
+  background-color: navy;
+  color: white;
+}
+
+section {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+
+figure {
+  margin: 15px 0;
+  padding: 10px;
+  border: 2px solid navy;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+nav a {
+  color: white;
+}
+
+footer {
+  padding: 15px;
+  background-color: navy;
+  color: white;
+  text-align: center;
+}
+
+.intro {
+  color: orange;
+}
+
+#watching {
+  border-left: 5px solid orange;
+}
