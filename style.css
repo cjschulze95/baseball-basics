@@ -50,3 +50,50 @@ footer {
 #watching {
   border-left: 5px solid orange;
 }
+
+/* Responsive layout */
+* {
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+/* Two columns on desktop */
+.content-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.content-grid section {
+  min-width: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Tablet and mobile layout */
+@media (max-width: 768px) {
+  .content-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Small phone screens */
+@media (max-width: 480px) {
+  main {
+    padding: 8px;
+  }
+
+  section {
+    padding: 16px;
+    margin: 8px 0;
+  }
+}
